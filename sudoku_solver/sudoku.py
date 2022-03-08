@@ -4,16 +4,16 @@ import csv
 import random
 x=[]
 y=[]
-with open('sudoku.csv', 'r') as sudoku:    
+with open('sudoku.csv', 'r') as sudoku:   
+ 
   csv_reader = csv.reader(sudoku)
-  random_sudoku=random.randrange(9000)+1
   
-  
-  sudoku.seek(random_sudoku)
+  random_sudoku=random.randrange(90)+1
+
   i=0
   for row in csv_reader:
         i+=1
-        if i==2:
+        if i==random_sudoku:
           x.append(row[0])
           y.append(row[1])
           break
