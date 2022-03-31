@@ -1,0 +1,141 @@
+@font-face {
+    
+    src: url('fonts/OtomanopeeOne-Regular.ttf');
+}
+*{
+		green-gradient:linear-gradient(to bottom right, #bcf073, #52ff00);
+		purple-gradient: linear-gradient(to bottom right , rgba(238,174,202,1) , rgba(148,187,233,1) );
+		
+	
+}
+
+#green-gradient-box{
+	-fx-background-color:green-gradient;
+	
+}
+#purple-gradient-box{
+	-fx-background-color:purple-gradient;
+	
+}
+.root {
+	
+	
+	-fx-alignment:center;	
+-fx-background-color:purple-gradient;
+}
+.hbox{
+	-fx-spacing:30px;
+	-fx-alignment:center;
+	-fx-padding:20px;
+}
+.Vbox-settings{
+	-fx-spacing:30px;
+	-fx-alignment:center;
+	-fx-padding:20px;
+}
+.label {
+	-fx-text-fill:#6666ff;
+	-fx-font-family: "OtomanopeeOne-Regular";
+	-fx-font-size: 2em;
+	-fx-alignment:top-center;
+	-fx-text-alignment:center;	
+}
+
+.button{
+	-fx-font-size: 3em;
+	-fx-border-width:1px;
+	-fx-border-color: black;
+	
+	/*  -fx-cursor: url('images/MetroAlt.ani'), default;*/
+
+}
+.button:disabled{
+	-fx-cursor:default ;
+	
+}
+.toggle-button{
+	-fx-font-size: 3em;
+	-fx-border-width:1px;
+	-fx-border-color: black;
+	/*-fx-cursor: hand;*/
+
+}
+.toggle-button:disabled{
+	-fx-opacity:1;
+}
+
+.menu-button{
+	-fx-background-color:rgba(0,0,0,0);
+	-fx-border-width:0px;	
+	-fx-font-weight:bold;
+	-fx-padding:1em;
+	-fx-font-size:5em;
+	
+}
+.menu-button:hover{
+	-fx-font-size: 6em;
+
+	
+}
+.wrong_number{
+	-fx-text-fill:red;
+}
+.correct_number{
+	-fx-text-fill:blue;
+}
+#arrow{
+	-fx-image:url('images/arrow.png');
+}
+
+#back-arrow{
+	-fx-image:url('images/back_arrow.png')
+}
+
+#vertical {
+	
+	-fx-border-width:1px 3px 1px 1px;
+}
+
+#orizontal{
+	-fx-border-width:1px 1px 3px 1px;
+}
+
+#colt {
+	-fx-border-width:1px 3px 3px 1px;
+	
+}
+#retry-button{
+	-fx-background-color:rgba(255,255,0,0);
+	-fx-border-width:0px;
+	-fx-background-image:url("images/button_background.png") ;
+	-fx-padding:0;
+	
+		 }
+#retry-button:hover{
+	-fx-background-image:url('images/button_background_hover.png');
+	
+}
+
+#fancy-button {
+
+	-fx-text-fill: black;
+	-fx-border-width:0px;
+	-fx-background-color:rgba(255,255,0,0);
+	
+}
+
+#fancy-button:hover {
+	
+	-fx-text-fill: blue;
+	/*-fx-background-color: #74BD00;	*/
+	
+}
+
+#fancy-button:pressed {
+	/*-fx-background-color:#8C9297;*/
+	-fx-text-fill: black;
+}
+#fancy-button:disabled{
+	-fx-cursor:default;
+}
+
